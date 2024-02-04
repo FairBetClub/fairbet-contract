@@ -1,0 +1,32 @@
+{
+  "name": "fairbet",
+  "version": "1.0.0",
+  "description": "",
+  "main": "hardhat.config.ts",
+  "directories": {
+    "test": "test --timeout 10000"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "@chainlink/contracts": "^0.6.1",
+    "@chainlink/contracts-ccip": "^0.7.6",
+    "@nomicfoundation/hardhat-toolbox": "^4.0.0",
+    "@nomicfoundation/hardhat-verify": "^2.0.0",
+    "@openzeppelin/contracts": "^4.8.3",
+    "axios": "^1.4.0",
+    "bignumber.js": "^9.1.1",
+    "dotenv": "^16.0.3",
+    "ethers": "^6.4.0",
+    "hardhat": "^2.17.1",
+    "hardhat-contract-sizer": "^2.8.0",
+    "hardhat-gas-reporter": "^1.0.9",
+    "typescript": "^5.2.2"
+  },
+  "author": "fairbet",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.29.4"
+  }
+}
