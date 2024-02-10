@@ -19,3 +19,37 @@ FairBet Homepage: https://www.fairbet.social/
 Telegram Group: https://t.me/fairbetcommunity ( admin: https://t.me/fairbet_betting )
 
 Twitter: https://twitter.com/FairBetClub
+
+## Development
+
+Install dependencies via Yarn:
+
+```bash
+yarn install
+```
+
+Setup Husky to format code on commit:
+
+```bash
+yarn prepare
+```
+
+Compile contracts via Hardhat:
+
+```bash
+yarn run hardhat compile
+```
+
+Automatically upgrade dependencies with yarn-up:
+
+```bash
+yarn upgrade-dependencies
+```
+
+### Testing
+
+Test contracts with Hardhat and generate gas report using `hardhat-gas-reporter`:
+
+```bash
+yarn run hardhat test
+```
